@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(assets/assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url(assets/assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url(assets/assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-ExtraBoldItalic";
+    src: url(assets/assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url(assets/assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url(assets/assets/fonts/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(assets/assets/fonts/Poppins-Regular.ttf);
+}
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins-Regular";
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 0px white solid;
+    border-radius: 12px 12px 70px 12px;
+}
+.in-cont {
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+    margin-left: 21px;
+}
+.in-cont span {
+    font-size: 8px;
+    padding: 5px 0px 0px 0px;
+}
+input {
+    width: 60px;
+    height: 25px;
+    border: 1px rgb(128, 127, 127, 0.3) solid;
+    text-align: center;
+    font-family: "Poppins-Italic";
+    border-radius: 4px;
+}
+input:focus {
+    outline: rgb(128, 127, 127, 0.5);
+}
+.check {
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.check span {
+    font-size: 15px;
+    display: none;
+}
+.line-arrow {
+    display: flex;
+    align-items: center;
+}
+.line {
+    width: 250px;
+    height: 0.2px;
+    background-color: hsl(0, 0%, 80%);
+    opacity: 50%;
+    margin-left: 19px;
+}
+img {
+    background-color: hsl(259, 100%, 65%);
+    border: 0px white solid;
+    border-radius: 50%;
+    width: 30px;
+}
+img:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Poppins-BoldItalic";
+    font-weight: bold;
+    font-size: 33px;
+}
+.clc {
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+}
+.word {
+    color: black(259, 100%, 65%);
+}
+.numY,
+.numM,
+.numD {
+    color: hsl(259, 100%, 65%);
+}
